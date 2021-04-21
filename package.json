@@ -1,0 +1,15 @@
+{
+  "name": "discordplayspokemon",
+  "version": "1.0.0",
+  "description": "Bot that allows you to play an gameboy color game trough text input in a discord channel",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "fs": "^0.0.1-security"
+  }
+}
