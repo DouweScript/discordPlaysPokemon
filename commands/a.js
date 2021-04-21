@@ -1,7 +1,9 @@
+var robot = require("robotjs");
+
 module.exports = {
     name: "a",
     description: "Press the a button on the emulator",
     execute(message, args){
-        //CODE HERE
+        robot.keyTap('x');
     }
 }
