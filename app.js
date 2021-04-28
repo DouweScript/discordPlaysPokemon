@@ -22,7 +22,10 @@ for(const file of commandFiles){
 
 //regeert op berichten die worden verzonden in een discord textkanaal
 client.on('message', message =>{
-    
+  if(message.channel.id != 835109662289297418){
+    return
+  }
+
   //gaat door alle commands in de array heen
   for(i = 0; i<allCommands.length; i++){
 
